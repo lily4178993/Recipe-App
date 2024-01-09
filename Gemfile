@@ -29,6 +29,9 @@ gem "jbuilder"
 # Use RuboCop for static code analysis. Constraint: >= 1.0 and < 2.0
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# Devise is a flexible authentication solution for Rails based on Warden [https://github.com/heartcombo/devise]
+  gem 'devise'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
