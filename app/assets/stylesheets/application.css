@@ -131,6 +131,13 @@ p .alert {
   padding-bottom: 3rem;
 }
 
+.recipe-foods-table th,
+.recipe-foods-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
 .foods-table tbody tr.custom-table-row td {
   padding: 1rem 0.5rem;
   border: 1px solid #662549;
@@ -376,13 +383,6 @@ label {
   border-collapse: collapse;
 }
 
-.recipe-foods-table th,
-.recipe-foods-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
-
 .recipe-container-show {
   max-width: 600px;
   margin: 0 auto;
@@ -437,11 +437,11 @@ label {
   transition: 0.4s;
 }
 
-.toggle-switch:checked+.slider {
+.toggle-switch:checked + .slider {
   background-color: rgb(228, 73, 17);
 }
 
-.toggle-switch:checked+.slider::before {
+.toggle-switch:checked + .slider::before {
   transform: translateX(26px);
 }
 
