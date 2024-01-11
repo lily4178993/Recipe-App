@@ -106,6 +106,7 @@ p .alert {
 
 .add-food-btn {
   margin-left: 33rem;
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 600;
   border-radius: 10px;
@@ -212,10 +213,36 @@ p .alert {
 }
 
 .table-shopping {
-  background-color: #f8f0e5;
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
-  border: 2px solid black;
-  padding: 0 2rem 2.5rem;
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.table-shopping th, .table-shopping td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-shopping th {
+  background-color: #f2f2f2;
+}
+
+.shopping-summary {
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.shopping {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-item {
+  margin-bottom: 10px;
+}
+
+.summary-item span {
+  margin-right: 5px;
 }
 
 .f-name {
@@ -511,4 +538,37 @@ label {
 
 .form-group {
   margin-top: 20px;
+}
+
+.public-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.recipe-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-user {
+  flex: 2; /* Adjust the value as needed for the width ratio */
+}
+
+.price-count {
+  flex: 1; /* Adjust the value as needed for the width ratio */
+}
+
+.recipe-box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
